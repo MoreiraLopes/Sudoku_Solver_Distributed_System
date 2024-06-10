@@ -3,7 +3,7 @@
 
 
 ## How to start nodes
-Run in two different terminal or more(you can start more then 2 nodes):
+Run in two different terminal or more(you can start more than 2 nodes):
 
 Start the main node:
 ```console
