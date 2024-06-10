@@ -2,8 +2,8 @@
 # Sudoku Solver Distributed System
 
 
-## How to run
-Run in two different terminal or more:
+## How to start nodes
+Run in two different terminal or more(you can start more then 2 nodes):
 
 Start the main node:
 ```console
@@ -13,7 +13,7 @@ Start a node and connect to another node:
 ```console
 $ python3 NodeSolver.py -p 8001 -s 9001 -a localhost:9000
 ```
-
+## How to run
 Start the solving process:
 ```console
 $ curl http://localhost:8000/solve -X POST -H 'Content-Type: application/json' -d '{"sudoku": [[3, 4, 5, 6, 7, 0, 0, 0, 0], [6, 0, 0, 1, 9, 5, 0, 0, 0], [0, 9, 8, 0, 0, 0, 0, 6, 0], [8, 0, 0, 0, 6, 0, 0, 0, 3], [4, 0, 0, 8, 0, 3, 0, 0, 1], [7, 0, 0, 0, 2, 0, 0, 0, 6], [0, 6, 0, 0, 0, 0, 2, 8, 0], [0, 0, 0, 4, 1, 9, 0, 0, 5], [0, 0, 0, 0, 8, 0, 0, 7, 9]]}'
